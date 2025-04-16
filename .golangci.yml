@@ -2,7 +2,6 @@ linters:
   disable-all: true
   enable:
     - bodyclose
-    - deadcode
     - errcheck
     - gofmt
     - gosec
@@ -12,11 +11,9 @@ linters:
     - misspell
     - prealloc
     - staticcheck
-    - structcheck
     - typecheck
     - unconvert
     - unused
-    - varcheck
 
 run:
   # default concurrency is a available CPU number.
