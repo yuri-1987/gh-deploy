@@ -16,7 +16,7 @@ import (
 var options Options
 
 type Options struct {
-	Repo    string `short:"r" long:"repo" description:"Github reposiory name including owner" required:"true"`
+	Repo    string `short:"r" long:"repo" description:"Github repository name including owner" required:"true"`
 	Env     string `short:"e" long:"env" description:"Github environment name" required:"true"`
 	RunId   string `short:"i" long:"run-id" description:"Github Action run id to approve" required:"true"`
 	Approve bool   `long:"approve" description:"Approve deployment"`
