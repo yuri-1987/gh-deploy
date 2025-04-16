@@ -23,6 +23,5 @@ run:
   # concurrency: 2 # explicitly omit this value to fully utilize available resources.
   timeout: 2m
   modules-download-mode: readonly
-  deadline: 5m
   issues-exit-code: 0
   tests: false
