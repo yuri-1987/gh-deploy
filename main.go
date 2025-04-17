@@ -23,6 +23,8 @@ type Options struct {
 	Reject  bool   `long:"reject" description:"Reject deployment"`
 }
 
+
+
 var parser = flags.NewParser(&options, flags.Default)
 
 func validateCliFlags() {
