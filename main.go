@@ -24,6 +24,7 @@ type Options struct {
 }
 
 
+
 var parser = flags.NewParser(&options, flags.Default)
 
 func validateCliFlags() {
